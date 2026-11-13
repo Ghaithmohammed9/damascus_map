@@ -1,0 +1,241 @@
+{
+  "results": [
+    {
+      "name": "boot layout",
+      "ok": true,
+      "info": {
+        "vw": 412,
+        "vh": 915,
+        "scrollW": 412,
+        "welcomeOpen": true,
+        "card": {
+          "left": 0,
+          "width": 412
+        },
+        "clusters": 60,
+        "pins": 11
+      }
+    },
+    {
+      "name": "list renders",
+      "ok": true,
+      "info": {
+        "listItems": 60,
+        "clusters": 60,
+        "pins": 11,
+        "maxCluster": 291,
+        "count": "4,940 مكان",
+        "base": "auto"
+      }
+    },
+    {
+      "name": "markers render",
+      "ok": true,
+      "info": {
+        "clusters": 60,
+        "pins": 11
+      }
+    },
+    {
+      "name": "marker density sane",
+      "ok": true,
+      "info": {
+        "clusters": 60,
+        "maxCluster": 291
+      }
+    },
+    {
+      "name": "landmark chip",
+      "ok": true,
+      "info": {
+        "items": 60,
+        "count": "883 مكان"
+      }
+    },
+    {
+      "name": "detail sheet",
+      "ok": true,
+      "info": {
+        "open": true,
+        "title": "السيف الدمشقي",
+        "cat": " متحف",
+        "actions": 6,
+        "overflowX": false
+      }
+    },
+    {
+      "name": "favorite toggles + persists",
+      "ok": true,
+      "info": {
+        "flags": {
+          "osmn12794709204": {
+            "fav": true
+          }
+        },
+        "on": true
+      }
+    },
+    {
+      "name": "route computes or falls back",
+      "ok": true,
+      "info": {
+        "line": true,
+        "info": "إنت على بعد 0 م من هالمكان — ما في داعي لطريق."
+      }
+    },
+    {
+      "name": "editor opens",
+      "ok": true,
+      "info": {
+        "open": true,
+        "catOpts": 25,
+        "coords": "33.51320, 36.27744"
+      }
+    },
+    {
+      "name": "add place saves + shows detail",
+      "ok": true,
+      "info": {
+        "count": 1,
+        "name": "مقهى النوفرة التجريبي",
+        "cat": "cafe",
+        "rating": 4,
+        "detailOpen": true,
+        "minePins": 1
+      }
+    },
+    {
+      "name": "long-press opens editor",
+      "ok": true,
+      "info": {
+        "open": true,
+        "coords": "33.51396, 36.27744"
+      }
+    },
+    {
+      "name": "search works",
+      "ok": true,
+      "info": {
+        "groups": [
+          "تصفية حسب الفئة",
+          "أماكن"
+        ],
+        "results": 31,
+        "hasUserPlace": false
+      }
+    },
+    {
+      "name": "layers panel",
+      "ok": true,
+      "info": {
+        "open": true,
+        "opts": 11,
+        "sw": 7
+      }
+    },
+    {
+      "name": "vector offline mode",
+      "ok": true,
+      "info": {
+        "vectorMode": true,
+        "tiles": 0,
+        "canvases": 3
+      }
+    },
+    {
+      "name": "tools panel",
+      "ok": true,
+      "info": {
+        "rows": 10,
+        "title": "الأدوات"
+      }
+    },
+    {
+      "name": "distance measure",
+      "ok": true,
+      "info": {
+        "label": "المسافة: 1.4 كم",
+        "bar": true
+      }
+    },
+    {
+      "name": "theme toggle",
+      "ok": true,
+      "info": {
+        "theme": "dark"
+      }
+    },
+    {
+      "name": "export payload",
+      "ok": true,
+      "info": {
+        "places": 1,
+        "app": "sham-map",
+        "features": 1
+      }
+    },
+    {
+      "name": "service worker + caches",
+      "ok": true,
+      "info": {
+        "reg": true,
+        "active": true,
+        "keys": [
+          "sham-shell-v2.0.2",
+          "sham-tiles-v1"
+        ]
+      }
+    },
+    {
+      "name": "reload works offline (SW)",
+      "ok": true,
+      "info": {
+        "title": "خرائط الشام — خريطة دمشق",
+        "listItems": 60,
+        "clusters": 72,
+        "welcome": false,
+        "base": "vector",
+        "badge": true
+      }
+    },
+    {
+      "name": "deep link centers map",
+      "ok": true,
+      "info": {
+        "lat": 33.5115,
+        "lon": 36.3064,
+        "z": 17
+      }
+    },
+    {
+      "name": "no JS errors",
+      "ok": true,
+      "info": []
+    }
+  ],
+  "logs": [
+    "log(info): Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner.",
+    "log(info): Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner.",
+    "log(info): Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner."
+  ],
+  "errors": [
+    "log: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "log: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "log: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "log: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "log: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "log: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "log: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "log: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "log: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "log: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "log: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "log: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "log: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "log: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "log: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "log: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "log: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "log: Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ]
+}
